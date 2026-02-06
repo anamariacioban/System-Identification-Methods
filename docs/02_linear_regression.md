@@ -77,11 +77,12 @@ $$
 The non-dominant time constant is determined using the inflection point of the step response.
 The inflection time $T_i$ is obtained experimentally and used to solve the transcendental equation:
 
-$$
+```math
 T_1 T_2 \ln(T_2)
 - T_2 \left(T_i + T_1 \ln(T_1)\right)
 + T_1 T_i = 0
-$$
+```
+
 
 From the experimental data, the inflection time is:
 
