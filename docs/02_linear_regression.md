@@ -31,8 +31,8 @@ K = \frac{\overline{y}_{st} - \overline{y}_0}{\overline{u}_{st} - \overline{u}_0
 $$
 
 The steady-state intervals are selected by visual inspection of the step response:
-- the initial steady-state interval corresponds to the indices $i_1$–$i_2$
-- the final steady-state interval corresponds to the indices $i_3$–$i_4$
+- the initial steady-state interval corresponds to the indices $i_1$– $i_2$
+- the final steady-state interval corresponds to the indices $i_3$– $i_4$
 
 Using the experimental data, the estimated static gain is:
 
