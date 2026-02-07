@@ -45,10 +45,12 @@ The project is structured into three main parts:
 ---
 
 ## Repository Contents
-- `main.tex` – LaTeX source of the report
-- `figures/` – plots and figures used in the report
-- `matlab/` – scripts and models used for identification
-- `report.pdf` – compiled report (Romanian)
+- `docs/` – LaTeX source of the report.
+- `figures/` – MATLAB- and Simulink-generated plots and figures used in the report.
+- `matlab_simulink/` – MATLAB scripts and Simulink models used for system
+identification, simulation, and model validation.
+- `System_Identification_Report_RO.pdf` – Compiled version of the complete report
+written in Romanian.
 
 ---
 
