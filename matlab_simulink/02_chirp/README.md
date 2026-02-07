@@ -14,15 +14,15 @@ initialization data.
 
 ## Files
 
-- `CIOBAN_AnaMaria_circuit_hidraulic_chirp.slx`  
+- `hydraulic_circuit_simulink_chirp.slx`  
   Simulink model of the hydraulic system excited using a Chirp input signal.
 
-- `CIOBAN_AnaMaria_setup_circuit_hidraulic_chirp.m`  
+- `hydraulic_circuit_setup_for_chirp.m`  
   Initialization and parameter configuration script for the Chirp experiment.
 
-- `genereaza_init_chirp_mat.m`  
+- `generate_chirp_initial_parameters.m`  
   Script used to generate and store initialization data required for the Chirp-based identification.
 
-- `comp_REG_CHIRP.m`  
+- `regression_vs_chirp_comparison_on_chirp_data.m`  
   Script used for model validation and comparison between Chirp-based and regression-based identification results.
 
