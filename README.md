@@ -1,6 +1,6 @@
 # System Identification Methods
 
-This repository contains my **System Identification** project, developed as part of my Control / Automation coursework.
+This repository contains my **System Identification** project, developed as part of my Control coursework.
 
 The project focuses on identifying and validating dynamic systems using both **time-domain** and **frequency-domain** techniques.
 The full technical report is written in Romanian and is included as a PDF file for completeness.
@@ -17,6 +17,7 @@ The project is structured into three main parts:
 - Parameter estimation using linear regression (successive logarithms method)
 - Identification of gain and dominant / non-dominant time constants
 - Model validation using performance indices (J and normalized MSE)
+- Model validation using both transfer function and state-space representations
 
 ### 2. Frequency-Domain Identification Using Chirp Signals
 - Excitation of the system using a Chirp input signal
