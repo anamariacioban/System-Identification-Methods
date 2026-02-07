@@ -39,12 +39,11 @@ Therefore, the overall static gain of the system is not assumed to be unity.
 
 The physical system is modeled using a second-order transfer function with real poles:
 
-\[
-\begin{aligned}
-H(s) &= \frac{K}{(T_1 s + 1)(T_2 s + 1)}, \\
-&\text{where } T_1 \gg T_2 .
-\end{aligned}
-\]
+$$
+H(s) = \frac{K}{(T_1 s + 1)(T_2 s + 1)}
+$$
+
+where \( T_1 \gg T_2 \).
 
 The system identification problem consists of determining the following parameters:
 - the static gain \( K \);
