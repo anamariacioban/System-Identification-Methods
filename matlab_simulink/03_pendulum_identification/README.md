@@ -13,9 +13,13 @@ initialization routines.
 
 ## Files
 
-- `CIOBAN_AnaMaria_pendul.slx`  
+- `pendulum_simulink_model.slx`  
   Simulink model of the pendulum system.
 
-- `CIOBAN_AnaMaria_setup_pendul.m`  
+- `pendulum_system_setup.m`  
   Initialization and parameter configuration script for the pendulum model.
+
+- `generate_input_signal.m`  
+Script used to generate the input excitation signal required by the Simulink
+model. The simulation cannot be executed without running this script first.
 
